@@ -142,9 +142,9 @@ int main() {
 		play_game();
 
 		cout << RESET << "Play again (Y/n)? ";
-		cin >> ans;	
+		ans = cin.get();	
 
-		done = (ans == 'y' || ans == 'Y' || ans == '\n') ? false : true;
+		done = (ans == 'y' || ans == 'Y' || ans == '\n' ) ? false : true;
 
 	}
 
